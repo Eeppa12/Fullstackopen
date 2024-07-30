@@ -31,7 +31,7 @@ Note right of browser: User writes a new note and clicks the Save button
 
 browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
 activate server
-Note left of browser: Payload: { "content": "New note content" }
+Note over browser: Payload: { "content": "New note content" }
 server-->>browser: Redirect to /exampleapp/notes
 deactivate server
 
